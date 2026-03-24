@@ -1,0 +1,13 @@
+Let's make a boarding house/transient stays application with a black and gold palette, using serif, or elegant fonts, wide spacing, minimal clutter, and with a premium feel. Something friendly like Airbnb, yet timeless like old hotels.
+
+
+
+You're going to generate five Dart files. First, the main.dart file, then the splash screen (that auto-navigates to login after 2-3 seconds with no user interaction required - it should have an app logo, an app name, a brief tagline, or a loading indicator. If possible, animate it.), a login screen with username and password fields, you may also add social login buttons. Don't include logic with it yet - make it so that you can login with dummy details. Tapping login should navigate directly to the dashboard. Next, generate the dashboard itself - it should have an AppBar with the app name, a scrollable list of item cards, with each showing an image, name, and at least two data fields. The data must come from a local JSON array defined in my code, with a minimum of eight items. Then, the details screen: display all details from the JSON for the selected item. It must also have back navigation and image display. It is navigated to by tapping a card on the dashboard. Lastly, generate a profile page with a placeholder user profile (with name, photo, and other details). There should be a settings option. The profile page should be reachable via BottomNavigationBar or Drawer from the Dashboard.
+
+
+
+The app must also be responsive. Use any of the following techniques to do this: LayoutBuilder, MediaQuery, Flexible/Expanded, AspectRatio or FractionallySizedBox. I also need you to generate an app icon for this app.
+
+
+
+Structure each output clearly, and guide me through building the app. Also generate the JSON mentioned earlier.
